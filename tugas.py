@@ -1,27 +1,21 @@
+#TUGAS : buat fungsi _APA_SAJA_YANG_KALIAN_TAHU
+#DAN GUNAKAN
+
 nama = 'Muhammad Munajat'
-program = 'Gerak Lurus'
+program = 'Gerak Lurus Berubah Beraturan'
 
 print(f'program {program} oleh {nama}')
 
 
 
-def hitung_kecepatan(jarak, waktu):
-    kecepatan = jarak / waktu
-    print(f'jarak = {jarak / 1000}km ditempuh dalam waktu = {waktu / 60}menit')
-    print(f'sehingga kecepatan = {kecepatan} m/s')
+def hitung_gaya(massa, kecepatan):
+    gaya = massa / kecepatan
+    print(f'massa = {massa / 1000}kg dengan kecepatan = {kecepatan / 60}m/s')
+    print(f'sehingga gaya = {gaya} kgm/s')
 
-    return jarak / waktu
+    return massa / kecepatan
 
-#jarak = 1000
-#waktu = 5 * 60
-kecepatan = hitung_kecepatan(1000, 5 * 60)
-kecepatan = hitung_kecepatan(10000, 70 * 60)
-
-#TUGAS : buat fungsi _APA_SAJA_YANG_KALIAN_TAHU
-#DAN GUNAKAN
-
-def hitung_gaya(massa, kecepatan)
-
-
-
-
+#massa = 1000
+#kecepatan = 60
+gaya = hitung_gaya(1000, 60)
+gaya = hitung_gaya(10000, 60)
